@@ -1,0 +1,81 @@
+html{font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #424f41;
+
+}
+.wrapper{
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    background: transparent;
+    border: 0.2rem solid rgba(255, 255, 255 , .5);
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    box-shadow: 0 0 3rem rgba(0, 0, 0 , .5);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .temp{
+    width: 175rem;
+    padding: 8rem;
+}
+h1 {
+    color: #C1A06C;
+}
+#con {
+    width: 9rem;
+    height: 3rem;
+    background-color: #C1A06C;
+    cursor: pointer;
+    font-size: 0.5cm;
+    border-radius: 0.4rem;
+    border: none;
+    transition: .5s;
+}
+#con:hover{
+    background: #fff;
+    color: #4a4e4a;
+}
+#cl {
+    width: 9rem;
+    height: 3rem;
+    background-color: #C1A06C;
+    cursor: pointer;
+    font-size: 0.5cm;
+    border-radius: 0.4rem;
+    border: none;
+    transition: .5s;
+}
+#cl:hover {
+    background: #fff;
+    color: #4a4e4a;
+}
+#f {
+    height: 3rem;
+    width: 30rem;
+    border: 0.2rem solid #C1A06C;
+}
+#c {
+    height: 3rem;
+    width: 30rem;
+    border: 0.2rem solid #C1A06C;
+}
+
+@media (max-width: 768px) {
+    font-size: 38%;
+}
+@media (max-width: 998px) {
+    font-size: 45%;
+}
+@media (max-width: 468px) {
+    font-size: 20%;
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+    font-size: 35%;
+}
